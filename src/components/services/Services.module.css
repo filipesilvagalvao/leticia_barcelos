@@ -47,22 +47,22 @@
 
     &:nth-child(4) {
         background: #5e5c5c;
-        background: linear-gradient(270deg, rgba(94, 92, 92, 0.02) 30%, #a5978a 75%);
+        background: linear-gradient(-270deg, rgba(94, 92, 92, 0.02) 30%, #a5978a 75%);
     }
 
     &:nth-child(5) {
         background: #5e5c5c;
-        background: linear-gradient(-270deg, rgba(94, 92, 92, 0.02) 30%, #a5978a 75%);
+        background: linear-gradient(270deg, rgba(94, 92, 92, 0.02) 30%, #a5978a 75%);
     }
 
      &:nth-child(6) {
         background: #5e5c5c;
-        background: linear-gradient(270deg, rgba(94, 92, 92, 0.02) 30%, #a5978a 75%);
+        background: linear-gradient(-270deg, rgba(94, 92, 92, 0.02) 30%, #a5978a 75%);
     }
 
      &:nth-child(7) {
         background: #5e5c5c;
-        background: linear-gradient(-270deg, rgba(94, 92, 92, 0.02) 30%, #a5978a 75%);
+        background: linear-gradient(270deg, rgba(94, 92, 92, 0.02) 30%, #a5978a 75%);
     }
 }
 
