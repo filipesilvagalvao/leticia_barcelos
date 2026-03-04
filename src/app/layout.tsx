@@ -3,6 +3,7 @@ import { Poppins, Beth_Ellen } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header/Header";
 import "@fortawesome/fontawesome-free/css/all.min.css"
+import Footer from "@/components/footer/Footer";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -30,6 +31,7 @@ export default function RootLayout({
       <body className={`${poppins.variable} ${beth_ellen.variable}`}>
         <Header/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
