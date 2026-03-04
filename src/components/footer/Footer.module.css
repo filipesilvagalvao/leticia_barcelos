@@ -11,6 +11,12 @@
     width: 95%;
     margin: auto;
     padding-bottom: 30px;
+    @media(max-width:608px){
+        text-align: center;
+       flex-direction: column;
+       align-items: center;
+       gap: 30px;
+    }
 }
 
 .footer__logo {
