@@ -1,42 +1,25 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
+*{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-poppins), sans-serif;
 }
 
-a {
-  color: inherit;
+:root{
+  --main-color:#a5978a;
+  --second-color:#a5978a;
+  --color-1:#fdfbf9;
+  --color-2:#ffffff;
+  --color-3:#5e5b5c;
+  --color-4:#3b3b3b;
+}
+
+body{
+  background-color: var(--color-1);
+  color: var(--color-4);
+}
+
+a{
   text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+  color: var(--color-3);
 }
