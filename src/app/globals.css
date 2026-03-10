@@ -7,11 +7,14 @@
 
 :root{
   --main-color:#a5978a;
-  --second-color:#a5978a;
+  --second-color:#c5c5c5;
   --color-1:#fdfbf9;
   --color-2:#ffffff;
   --color-3:#5e5b5c;
   --color-4:#3b3b3b;
+}
+html{
+  scroll-behavior: smooth;
 }
 
 body{

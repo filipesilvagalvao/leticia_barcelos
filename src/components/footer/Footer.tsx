@@ -13,12 +13,12 @@ function Footer() {
                 <div className={styles.footer__adress}>
                     <p>Rua Exemplo, 100, Pompéu - MG</p>
                     <p>E-mail: contato@gmail.com.br</p>
-                    <p>Telefone: 37 9999-9999</p>
+                    <p>Telefone: 37 99875-9161</p>
                 </div>
 
                 <div className={styles.footer__social}>
-                    <a href=""><i className="fa-brands fa-instagram"></i></a>
-                    <a href=""><i className="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/leticiabarcellos.estetica?igsh=MzJnMmZhYjdkZXQ2&utm_source=qr" target="_blank"><i className="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/+553798759161?text=Ol%C3%A1%20Let%C3%ADcia%2C%20quer%20agendar%20uma%20consulta" target="_blank"><i className="fa-brands fa-whatsapp"></i></a>
                 </div>
             </div>
 

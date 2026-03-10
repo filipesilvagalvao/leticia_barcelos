@@ -8,7 +8,7 @@ function Hero() {
                 <div className={styles.hero__ctaText}>
                     <p>Massoterapia & Bem-estar</p>
                     <h1>Cuide de você <br /><span>com quem entende</span></h1>
-                    <a href="">Agendar Consulta</a>
+                    <a href="https://wa.me/+553798759161?text=Ol%C3%A1%20Let%C3%ADcia%2C%20quer%20agendar%20uma%20consulta" target="_blank">Agendar Consulta</a>
                 </div>
                 <div className={styles.hero__baloons}>
                     <img src="/img/img-2.png" alt="img" />

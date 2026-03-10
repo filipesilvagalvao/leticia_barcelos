@@ -4,12 +4,24 @@
     justify-content: space-around;
     align-items: center;
     min-height: 100dvh;
-   
+    background-image: url("/bg-image/redox-02.png");
+    background-position: center;
+    background-size: cover;
 }
 
 .service__title {
     font-size: min(7rem, 7vw);
-   padding: 20px 0;
+    padding: 20px 0;
+    position: relative;
+
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        width: min(800px, 100%);
+        z-index: -1;
+    }
 }
 
 .service__container {
@@ -20,58 +32,14 @@
     padding: 40px 0;
 }
 
-.service__card {
-    position: relative;
-    width: min(1000px, 97%);
-    height: 110px;
-    margin: auto;
-    padding: 5px;
-    border-radius: 10px;
-    outline: 1px solid #5e5c5c91;
-    font-weight: 600;
 
-    &:nth-child(1) {
-        background: #5e5c5c;
-        background: linear-gradient(270deg, rgba(94, 92, 92, 0.02) 30%, #a5978a 75%);
-    }
-
-    &:nth-child(2) {
-        background: #5e5c5c;
-        background: linear-gradient(-270deg, rgba(94, 92, 92, 0.02) 30%, #a5978a 75%);
-    }
-
-     &:nth-child(3) {
-        background: #5e5c5c;
-        background: linear-gradient(270deg, rgba(94, 92, 92, 0.02) 30%, #a5978a 75%);
-    }
-
-    &:nth-child(4) {
-        background: #5e5c5c;
-        background: linear-gradient(-270deg, rgba(94, 92, 92, 0.02) 30%, #a5978a 75%);
-    }
-
-    &:nth-child(5) {
-        background: #5e5c5c;
-        background: linear-gradient(270deg, rgba(94, 92, 92, 0.02) 30%, #a5978a 75%);
-    }
-
-     &:nth-child(6) {
-        background: #5e5c5c;
-        background: linear-gradient(-270deg, rgba(94, 92, 92, 0.02) 30%, #a5978a 75%);
-    }
-
-     &:nth-child(7) {
-        background: #5e5c5c;
-        background: linear-gradient(270deg, rgba(94, 92, 92, 0.02) 30%, #a5978a 75%);
-    }
-}
 
 .service__cardTitle {
     font-style: italic;
 }
 
 .service__cardTitle:nth-child(1) {
-   
+
     text-transform: uppercase;
 
     position: absolute;
@@ -80,7 +48,7 @@
 
 .service__cardTitle:nth-child(2) {
 
-   
+
     text-transform: uppercase;
 
     position: absolute;
@@ -90,7 +58,7 @@
 
 .service__cardTitle:nth-child(3) {
 
-   
+
     text-transform: uppercase;
     position: absolute;
     top: -35px;
@@ -119,11 +87,12 @@
     letter-spacing: 1.1;
 }
 
-.service__item{
-            display: flex;
-            gap: 5px;
-            align-items: center;
-    i{
+.service__item {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+    i {
         display: flex;
         align-items: center;
         justify-content: center;

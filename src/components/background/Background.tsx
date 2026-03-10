@@ -44,7 +44,7 @@ function Background() {
                 uAmplitude={0}
                 uDensity={1}
                 uFrequency={5.5}
-                uSpeed={0.08}
+                uSpeed={0.12}
                 uStrength={3}
                 uTime={0.2}
                 wireframe={false}
