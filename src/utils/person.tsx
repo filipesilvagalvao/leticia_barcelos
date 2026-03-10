@@ -41,6 +41,13 @@ const persons:Person[] = [
         alt:"foto de daniela",
         coments:"Sem dúvida uma das melhores profissionais que já conheci na área de estética. Muito caprichosa e atenciosa. Já virei cliente fiel",
         stars:5
+    },
+    {
+        namePerson:"Patrícia Alves",
+        photo:"/photo-persons/patricia-alves.png",
+        alt:"foto de patrícia",
+        coments:"Fiz uma sessão de massagem relaxante com a Letícia e foi simplesmente incrível! Ela tem um toque mágico e o ambiente é super acolhedor. Saí me sentindo renovada e super relaxada. Recomendo demais!",
+        stars:5
     }
 ]
 
