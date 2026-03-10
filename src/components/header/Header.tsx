@@ -18,7 +18,7 @@ function Header() {
                 <nav className={styles.header__nav}>
                     <a href="/">Home</a>
                     <a href="#services">Serviços</a>
-                    <a href="#about">Sobre</a>
+                    <a href="#about">Sobre mim</a>
                     <a href="#feedbacks">Feedbacks</a>
                     <a href="https://wa.me/+553798759161?text=Ol%C3%A1%20Let%C3%ADcia%2C%20quer%20agendar%20uma%20consulta" target="_blank">Agendar Consulta</a>
                     

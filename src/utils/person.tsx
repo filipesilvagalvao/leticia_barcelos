@@ -1,38 +1,45 @@
 import type { Person } from "./type_person"
 const persons:Person[] = [
     {
-        namePerson:"Livia Faria",
-        photo:"/photo-persons/livia-faria.png",
-        alt:"foto de livia",
-        coments:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae necessitatibus impedit mollitia odit error praesentium, minima dolor atque voluptates iure suscipit fugit at vero eos voluptatibus excepturi harum adipisci.",
+        namePerson:"Ana Paula Mendes",
+        photo:"/photo-persons/ana-paula-mendes.jpg",
+        alt:"foto de ana paula",
+        coments:"Fiz uma sessão de massagem com a Letícia e simplesmente amei! Ela é muito atenciosa, profissional e o ambiente é super acolhedor. Saí me sentindo renovada. Recomendo demais!",
         stars:5
     },
     {
-        namePerson:"Gabriela Faria",
-        photo:"/photo-persons/gabriela-faria.png",
-        alt:"foto de gabriela",
-        coments:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae necessitatibus impedit mollitia odit error praesentium, minima dolor atque voluptates iure suscipit fugit at vero eos voluptatibus excepturi harum adipisci.",
+        namePerson:"Juliana Ribeiro",
+        photo:"/photo-persons/juliana-ribeiro.jpg",
+        alt:"foto de juliana",
+        coments:"A Letícia tem mãos incríveis! Fiz um procedimento estético com ela e o resultado foi maravilhoso. Além de muito competente, ela explica tudo com muita calma e cuidado",
         stars:5
     },
     {
-        namePerson:"Filipe",
-        photo:"/photo-persons/filipe-silva-galvao.png",
-        alt:"foto de filipe",
-        coments:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae necessitatibus impedit mollitia odit error praesentium, minima dolor atque voluptates iure suscipit fugit at vero eos voluptatibus excepturi harum adipisci.",
+        namePerson:"Mariana Souza",
+        photo:"/photo-persons/mariana-souza.png",
+        alt:"foto de mariana",
+        coments:"Excelente profissional! Fiz algumas sessões de massagem modeladora e já notei muita diferença. A Letícia é muito dedicada e realmente se preocupa com o bem-estar das clientes. O ambiente é super agradável e acolhedor. Recomendo de olhos fechados!",
         stars:5
     },
     {
-        namePerson:"Ohana Ester",
-        photo:"/photo-persons/ohana-ester.png",
-        alt:"foto de ohana",
-        coments:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae necessitatibus impedit mollitia odit error praesentium, minima dolor atque voluptates iure suscipit fugit at vero eos voluptatibus excepturi harum adipisci.",
+        namePerson:"Fernanda Oliveira",
+        photo:"/photo-persons/fernanda-oliveira.png",
+        alt:"foto de fernanda",
+        coments:"A Letícia é extremamente profissional e muito simpática. O atendimento é impecável e os resultados são ótimos.",
         stars:5
     },
     {
-        namePerson:"Natalia dos Reis Silva Santos",
-        photo:"/photo-persons/natalia-reis.png",
-        alt:"foto de natalia",
-        coments:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae necessitatibus impedit mollitia odit error praesentium, minima dolor atque voluptates iure suscipit fugit at vero eos voluptatibus excepturi harum adipisci.",
+        namePerson:"Camila Santos",
+        photo:"/photo-persons/camila-santos.png",
+        alt:"foto de camila",
+        coments:"Adorei, fiz drenagem linfática e gostei muito",
+        stars:5
+    },
+    {
+        namePerson:"Daniela Costa",
+        photo:"/photo-persons/daniela-costa.png",
+        alt:"foto de daniela",
+        coments:"Sem dúvida uma das melhores profissionais que já conheci na área de estética. Muito caprichosa e atenciosa. Já virei cliente fiel",
         stars:5
     }
 ]
