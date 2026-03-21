@@ -7,9 +7,10 @@ function About() {
             <img src="/photo/foto-3.jpeg" alt="foto de letícia" className={styles.about__photo}/>
             <div className={styles.about__content}>
                 <h2 className={styles.about__title}>Letícia Barcelos</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias a accusamus ipsam architecto quaerat maiores reprehenderit? Aspernatur magnam rerum magni provident, eius perspiciatis est praesentium, quasi qui molestiae recusandae a?</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis sequi voluptatibus at voluptatem placeat temporibus facilis tempore explicabo, totam animi ratione. Recusandae labore hic blanditiis dolor magni cumque perspiciatis saepe.</p>
-                <a href="">Agendar Consulta</a>
+                <p>Olá, me chamo Letícia Barcelos e atuo há mais de 6 anos na área da estética, ajudando mulheres a elevarem sua autoestima e bem-estar por meio de tratamentos personalizados e eficazes. Atualmente, estou em formação em Biomedicina, o que fortalece ainda mais meu conhecimento técnico e científico.</p>
+
+                <p>Busco constante evolução, participando de congressos e cursos para me manter atualizada com as mais modernas técnicas do mercado. Sou especializada em drenagem linfática, massagem modeladora, relaxante, bambuterapia e liberação miofascial, sempre priorizando um atendimento humanizado, seguro e com resultados reais.</p>
+                <a href="https://wa.me/+553798759161?text=Ol%C3%A1%20Let%C3%ADcia%2C%20quer%20agendar%20uma%20consulta" target="_blank">Agendar Consulta</a>
             </div>
         </div>
     </section>
