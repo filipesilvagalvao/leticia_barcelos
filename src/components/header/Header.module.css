@@ -3,7 +3,7 @@
     top: 0;
     backdrop-filter: blur(10px);
     z-index: 999;
-    background-color: #5e5b5c82;
+    background-color: #fff5f882;
     
 }
 .header__container {
@@ -17,7 +17,9 @@
 
 .header__logo {
     img {
-        width: 180px;
+        width: 60px;
+        border-radius: 50%;
+        border: 1px solid #858585b0;
     }
 }
 
@@ -29,7 +31,7 @@
     text-transform: uppercase;
 
     a {
-        color: var(--color-1);
+        color: var(--color-4);
         padding: 5px;
         transition: all 0.3s ease;
     }

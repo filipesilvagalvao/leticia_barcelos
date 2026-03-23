@@ -5,7 +5,7 @@ function Header() {
         <header className={styles.header}>
             <div className={styles.header__container}>
                 <a href="/" className={styles.header__logo}>
-                    <img src="/logo/logo-2.png" alt="logo leticia barcelos" />
+                    <img src="/logo/logo-6.png" alt="logo leticia barcelos" />
                 </a>
 
                 <input type="checkbox" id="hamburguer" className={styles.header__checkbox}/>

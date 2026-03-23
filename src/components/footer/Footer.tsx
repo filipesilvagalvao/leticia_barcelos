@@ -7,7 +7,7 @@ function Footer() {
             <div className={styles.footer__container}>
 
                 <div className={styles.footer__logo}>
-                    <img src="/logo/logo-2.png" alt="logo" />
+                    <img src="/logo/logo-6.png" alt="logo"/>
                 </div>
 
                 <div className={styles.footer__adress}>
