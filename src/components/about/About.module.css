@@ -58,7 +58,7 @@
 .about__content::before {
     content: "";
     width: 98vw;
-    height: 500px;
+    height: 600px;
     position: absolute;
     background-color: var(--main-color);
     z-index: -1;

@@ -11,8 +11,8 @@ function Footer() {
                 </div>
 
                 <div className={styles.footer__adress}>
-                    <p>Rua Exemplo, 100, Pompéu - MG</p>
-                    <p>E-mail: contato@gmail.com.br</p>
+                    <p> R. Aurora Torquato, 372 - Centro, Pompéu - MG</p>
+                    <p>E-mail: leticiabarcelos811@gmail.com</p>
                     <p>Telefone: 37 99875-9161</p>
                 </div>
 
